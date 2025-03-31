@@ -1,0 +1,10 @@
+Stuff in use:
+
+Wayland
+dwl (self compiled), here I set keybindings
+alacritty as terminal (customised vim-mode)
+
+backlight_control
+pavucontrol (problem with high volume not staying)
+
+

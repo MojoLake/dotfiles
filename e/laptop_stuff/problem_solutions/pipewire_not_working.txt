@@ -1,0 +1,2 @@
+After restarting with systemctl the pipewire, pipewire-pulse and wireplumber services AND
+installing sof-firmware and then rebooting the audio started to work.

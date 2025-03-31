@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# File path to battery capacity
+BATTERY_CAPACITY="/sys/class/power_supply/BAT0/capacity"
+
+# Check if the file exists and is readable
+if [[ -r $BATTERY_CAPACITY ]]; then
+    # Read the battery percentage
+    BATTERY_LEVEL=$(cat $BATTERY_CAPACITY)
+    echo "Battery level: $BATTERY_LEVEL%"
+else
+    echo "Unable to read battery level. Check file path or permissions."
+fi
+
