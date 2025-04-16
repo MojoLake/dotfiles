@@ -12,6 +12,7 @@ PS1='%m:%1~ %# '
 
 alias vi="nvim"
 alias shut="shutdown now"
+alias shit="shutdown now"
 alias cop="wl-copy"
 alias past="wl-paste"
 alias ls="ls --color" 
@@ -25,6 +26,7 @@ alias vdec="pactl set-sink-volume 0 -3%"
 # Set second monitor to the left/right
 alias monitor_left="wlr-randr --output HDMI-A-1 --pos -1920,0"
 alias monitor_right="wlr-randr --output HDMI-A-1 --pos 1920,0"
+alias monitor_mirror="wl-mirror --fullscreen-output HDMI-A-1 eDP-1 &"
 
 # alias to manage dotfiles
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
